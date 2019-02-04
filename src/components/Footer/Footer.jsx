@@ -28,11 +28,11 @@ function Footer({ ...props }) {
           &copy; {1900 + new Date().getYear()} , made with{" "}
           <Favorite className={classes.icon} /> by{" "}
           <a
-            href="https://aws.amazon.com/es/"
+            href="https://cloud-scales.com/"
             className={aClasses}
             target="_blank"
           >
-            Juan Valero :D
+            Cloud-Scale with React
           </a>{" "}
           for a better web.
         </div>

@@ -16,9 +16,9 @@ import CardFooter from "components/Card/CardFooter.jsx";
 
 import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.jsx";
 
-import team1 from "assets/img/faces/avatar.jpg";
-import team2 from "assets/img/faces/christian.jpg";
-import team3 from "assets/img/faces/kendall.jpg";
+import juan from "assets/img/faces/juan.webp";
+import demian from "assets/img/faces/demian.webp";
+import miguel from "assets/img/faces/miguelWebP.webp";
 
 class TeamSection extends React.Component {
   render() {
@@ -36,7 +36,7 @@ class TeamSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={team1} alt="..." className={imageClasses} />
+                  <img src={juan} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
                   Juan Valero
@@ -47,7 +47,7 @@ class TeamSection extends React.Component {
                   <p className={classes.description}>
                     You can write here details about one of your team members.
                     You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
+                    add some for people to be able to
                     follow them outside the site.
                   </p>
                 </CardBody>
@@ -66,7 +66,7 @@ class TeamSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={team2} alt="..." className={imageClasses} />
+                  <img src={demian} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
                   Demian Bolivar
@@ -77,14 +77,14 @@ class TeamSection extends React.Component {
                   <p className={classes.description}>
                     You can write here details about one of your team members.
                     You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
+                    add some for people to be able to
                     follow them outside the site.
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
                   <Button
                     justIcon
-                    href={"https://www.linkedin.com/in/juan-valero-78356083/"}
+                    href={"https://www.linkedin.com/in/demianbolivar/"}
                     color="transparent"
                     className={classes.margin5}
                   >
@@ -96,7 +96,7 @@ class TeamSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={team3} alt="..." className={imageClasses} />
+                  <img src={miguel} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
                   Miguel Gonzalez
@@ -107,14 +107,14 @@ class TeamSection extends React.Component {
                   <p className={classes.description}>
                     You can write here details about one of your team members.
                     You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
+                    add some for people to be able to
                     follow them outside the site.
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
                   <Button
                     justIcon
-                    href={"https://www.linkedin.com/in/juan-valero-78356083/"}
+                    href={"https://www.linkedin.com/in/gonzalezmmiguel/"}
                     color="transparent"
                     className={classes.margin5}
                   >

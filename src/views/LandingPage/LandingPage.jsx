@@ -11,7 +11,6 @@ import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
-import Button from "components/CustomButtons/Button.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
@@ -32,7 +31,7 @@ class LandingPage extends React.Component {
         <Header
           color="transparent"
           routes={dashboardRoutes}
-          brand="Grow Clouds"
+          brand="Cloud-Scales"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -45,23 +44,11 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Tu historia en la nube Comienza Ahora.</h1>
+                <h1 className={classes.title}>Your Cloud Business Star NOW!.</h1>
                 <h4>
-                    somos una empresa enfocada en soluciones en la Nube de Amazon hacemos desarrollo a medida con 100% uptime (si 100% uptime) con escalado
-                    automático y excelente rendimiento . automatizamos tu negocio para que puedas enfocarte en las cosas que si son importantes
-                    y no en procesos rutinarios y repetitivos
-
+                    We are a company focus on cloud based solutions we mede Software development to Business automatized
+                    your business and improve your productivity.
                 </h4>
-                <br />
-                <Button
-                  color="danger"
-                  size="lg"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fas fa-play" />Este boton se borrara
-                </Button>
               </GridItem>
             </GridContainer>
           </div>
